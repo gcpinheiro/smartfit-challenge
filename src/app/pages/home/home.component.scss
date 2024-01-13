@@ -1,0 +1,34 @@
+@import "main";
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    .box-title {
+      width: 100%;
+
+      .line {
+        width: 78px;
+        height: 15px;
+        background-color: $dark-grey;
+        margin-top: 16px;
+      }
+
+      h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: Gotham-bold;
+      }
+
+      p {
+        font-family: Gotham-light;
+        margin-top: 16px;
+      }
+    }
+  }
+}
